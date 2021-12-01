@@ -7,15 +7,7 @@
 
 
 /*************************************************
-* Name:         hybrid1b1 Algorithm corresponds to b1_real() below.
-*               See the paper: "Improved polynomial multiplication algorithms over characteristic three fields and applications to NTRU Prime" 
-                                by E. Yeniaras and M. Cenk for the details of the algorithm:
-*              
-*
-* Description: Multiplies two polynomials with input size "n=654" with coefficients in F_3
-*              Using 1 level of Bernstein's 3-way algorithm B1, then Karatsuba 2-way and the unbalanced Karatsuba 2-way down to the input sizes 16 
-               and then the schoolbook at the final level.
-*
+
 * Arguments:   struct complex a[]:        array of F_3 coefficients for the input polynomial a(x)
 *              struct complex b[]:        array of F_3  coefficients for the input polynomial b(x)
 *              struct complex c[]:        array of F_3  coefficients for the multiplication polynomial c(x)=a(x).b(x)    

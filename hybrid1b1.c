@@ -7,7 +7,7 @@
 
 
 /*************************************************
-* Name:         B1-Hybrid1 Algorithm corresponds to b1_real() below.
+* Name:         hybrid1b1 Algorithm corresponds to b1_real() below.
 *               See the paper: "Improved polynomial multiplication algorithms over characteristic three fields and applications to NTRU Prime" 
                                 by E. Yeniaras and M. Cenk for the details of the algorithm:
 *              

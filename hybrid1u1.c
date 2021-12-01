@@ -7,7 +7,7 @@
 
 
 /*************************************************
-* Name:         U1-Hybrid1 Algorithm corresponds to  ue_v12_real() below.
+* Name:         hybrid1u1 Algorithm corresponds to  ue_v12_real() below.
 *               See the paper: "Improved polynomial multiplication algorithms over characteristic three fields and applications to NTRU Prime" 
                                 by E. Yeniaras and M. Cenk for the details of the algorithm:
 *              

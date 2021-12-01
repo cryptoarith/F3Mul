@@ -8,14 +8,6 @@
 
 
 /*************************************************
-* Name:         U1-Hybrid2 Algorithm corresponds to  ue_v14_real() below.
-*               See the paper: "Improved polynomial multiplication algorithms over characteristic three fields and applications to NTRU Prime" 
-                                by E. Yeniaras and M. Cenk for the details of the algorithm:
-*              
-*
-* Description: Multiplies two polynomials with input size "n=761" with coefficients in F_3
-*              Using unbalanced 5-way algorithm U1 and then some variants of Karatsuba 2-way algorithm, V1 and schoolbook. (See the paper above)
-*
 * Arguments:   struct complex a[]:        array of F_3  coefficients  for the input polynomial a(x)
 *              struct complex b[]:        array of F_3  coefficients for the input polynomial b(x)
 *              struct complex c[]:        array of F_3  coefficients for the multiplication polynomial c(x)=a(x).b(x)    
